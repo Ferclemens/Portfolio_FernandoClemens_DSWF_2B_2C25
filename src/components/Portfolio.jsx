@@ -1,6 +1,9 @@
 import React from "react";
 import "./Portfolio.css";
 import JobCard from "./JobCard";
+import ResumeCard from "./ResumeCard";
+import ProyectCard from "./ProyectCard";
+import EducationCard from "./EducationCard";
 
 export default function Portfolio() {
   return (
@@ -9,7 +12,7 @@ export default function Portfolio() {
         <aside className="sidebar">
           <div className="profile">
             <img
-              src="/assets/perfil_cv.webp"
+              src="src/assets/react.svg"
               alt="Foto de perfil - Fernando Clemens"
               className="profile-image"
             />
@@ -51,8 +54,6 @@ export default function Portfolio() {
                 "Cypress",
                 "Git y GitHub",
                 "Scrum/Kanban",
-                "REST API",
-                "Responsable",
               ].map((s) => (
                 <li key={s}>• {s}</li>
               ))}
@@ -93,26 +94,17 @@ export default function Portfolio() {
               </div>
               <span className="portfolio-label">Currículum / Portfolio</span>
             </header>
-
             <hr />
-
             <section>
               <h2>Resumen</h2>
-              <p>
-                Desarrollador web | Ing. de datos junior. Experiencia de trabajo
-                en equipos y gestión de proyectos mediante metodologías ágiles.
-                Elaboración de procesos ETL para manipulación de datos. Tester
-                manual, desarrollo de casos de prueba y reportes de errores.
-                Actualmente cursando tecnicatura en desarrollo de software.
-                Proactivo, responsable y empático. Siempre dispuesto a colaborar
-                en equipos de trabajo y aplicar lo aprendido. En continuo
-                crecimiento.
-              </p>
+              <ResumeCard />
             </section>
-
+            <section>
+              <h2>Educación</h2>
+              <EducationCard />
+            </section>
             <section>
               <h2>Experiencia</h2>
-
               <JobCard
                 title="Informatorio"
                 company="Bootcamp"
@@ -125,7 +117,6 @@ export default function Portfolio() {
                   "Elaboración de historias de usuario, casos de prueba y reporte de errores.",
                 ]}
               />
-
               <JobCard
                 title="Desarrollador web independiente"
                 company="Independiente"
@@ -137,7 +128,6 @@ export default function Portfolio() {
                   "Exploración de webs y reporte de errores y/o mejoras.",
                 ]}
               />
-
               <JobCard
                 title="Ingeniero de datos"
                 company="ASJ Servicios"
@@ -150,44 +140,17 @@ export default function Portfolio() {
                 ]}
               />
             </section>
-
             <section>
               <h2>Proyectos destacados</h2>
               <p>
-                (Aquí puedes listar proyectos, repositorios o enlaces a demos.
-                Ej: proyecto personal, API, web responsive, tests con Cypress,
-                etc.)
+                Proyectos personales y colaborativos realizados durante mi
+                formación.
               </p>
-
-              <div className="projects-grid">
-                <div className="project-card">
-                  <h3>Proyecto A</h3>
-                  <p>
-                    Descripción corta del proyecto, tecnologías y enlace a
-                    repo/demo.
-                  </p>
-                </div>
-                <div className="project-card">
-                  <h3>Proyecto B</h3>
-                  <p>
-                    Descripción corta del proyecto, tecnologías y enlace a
-                    repo/demo.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2>Educación</h2>
-              <p>
-                Tecnicatura en Desarrollo de Software — IFTS Nº 29 (1º PFO de
-                Desarrollo Front End)
-              </p>
+              <ProyectCard />
             </section>
           </section>
         </main>
       </div>
-
       <footer className="footer">
         © {new Date().getFullYear()} Fernando Oscar Clemens
       </footer>
