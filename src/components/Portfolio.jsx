@@ -146,7 +146,30 @@ export default function Portfolio() {
                 Proyectos personales y colaborativos realizados durante mi
                 formación.
               </p>
-              <ProyectCard />
+              <ProyectCard
+                title="Awesome Color Scheme Picker - Aplicación generadora de esquemas de color."
+                description="Generadora de esquemas de color."
+                technologies="HTML, CSS, javascript"
+                repoLink="https://github.com/Ferclemens/color-scheme-generator"
+                demoLink="https://awesome-color-scheme-picker.netlify.app/"
+                img_src="src/assets/awesomecolorschemepicker.png"
+              />
+              <ProyectCard
+                title="Rememba App - Aplicación de recordatorios."
+                description="To-do list app para crear y gestionar recordatorios. Con información persistente en browser"
+                technologies="HTML, CSS, javascript"
+                repoLink="https://github.com/Ferclemens/RemembaApp"
+                demoLink="https://rememba-app.netlify.app/"
+                img_src="src/assets/remembaapp.png"
+              />
+              <ProyectCard
+                title="Tables and Charts App - Aplicación de tablas y gráficos."
+                description="Una aplicación para cargar un archivo xlsx de ventas y mostrar información gráfica sobre esos datos."
+                technologies="React, React-Table, Chart.js, Chakra UI"
+                repoLink="https://github.com/Ferclemens/tables-and-charts"
+                demoLink="https://tables-and-charts-app.vercel.app/"
+                img_src="src/assets/tablesandcharts.png"
+              />
             </section>
           </section>
         </main>

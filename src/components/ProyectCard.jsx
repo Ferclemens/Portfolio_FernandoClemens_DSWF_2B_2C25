@@ -1,16 +1,28 @@
 import React from "react";
 
-function ProyectCard() {
+function ProyectCard({
+  title,
+  description,
+  technologies,
+  repoLink,
+  demoLink,
+  img_src,
+}) {
   return (
     <div className="projects-grid">
       <div className="project-card">
-        <h3>Proyecto A</h3>
-        <p>Descripción corta del proyecto, tecnologías y enlace a repo/demo.</p>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <p>{technologies}</p>
+        <a href={repoLink} target="_blank">
+          {repoLink}
+        </a>
+        <br></br>
+        <a href={demoLink} target="_blank">
+          {demoLink}
+        </a>
       </div>
-      <div className="project-card">
-        <h3>Proyecto B</h3>
-        <p>Descripción corta del proyecto, tecnologías y enlace a repo/demo.</p>
-      </div>
+      <img className="project-card" src={img_src} alt="Proyecto imagen" />
     </div>
   );
 }
