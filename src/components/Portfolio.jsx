@@ -10,15 +10,8 @@ export default function Portfolio() {
     <div className="portfolio-container">
       <div className="portfolio-wrapper">
         <aside className="sidebar">
-          <div className="profile">
-            <img
-              src="src/assets/react.svg"
-              alt="Foto de perfil - Fernando Clemens"
-              className="profile-image"
-            />
-            <h3 className="profile-name">FERNANDO OSCAR CLEMENS</h3>
-            <p className="profile-role">Desarrollador Web</p>
-          </div>
+          <h3 className="profile-name">FERNANDO OSCAR CLEMENS</h3>
+          <p className="profile-role">Desarrollador Web</p>
 
           <nav className="contact-section">
             <h4>Contacto</h4>
@@ -156,7 +149,7 @@ export default function Portfolio() {
               />
               <ProyectCard
                 title="Rememba App - Aplicación de recordatorios."
-                description="To-do list app para crear y gestionar recordatorios. Con información persistente en browser"
+                description="To-do list app para crear y gestionar recordatorios. Con información persistente en browser."
                 technologies="HTML, CSS, javascript"
                 repoLink="https://github.com/Ferclemens/RemembaApp"
                 demoLink="https://rememba-app.netlify.app/"

@@ -228,7 +228,7 @@ body {
 
 @media (min-width: 768px) {
   .projects-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -237,6 +237,11 @@ body {
   border-radius: 0.6rem;
   padding: 1rem;
   transition: box-shadow 0.2s ease;
+}
+.project-img {
+  padding: 1rem 0;
+  transition: box-shadow 0.2s ease;
+  width: 100%;
 }
 
 .project-card:hover {
@@ -253,6 +258,10 @@ body {
   font-size: 0.9rem;
   color: #555;
   margin-top: 0.5rem;
+}
+.project-card a {
+  text-decoration: none;
+  color: #0073e6;
 }
 
 /* ======== FOOTER ======== */
