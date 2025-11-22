@@ -6,7 +6,7 @@ Link a Deploy en Netlify: https://portfolioclemensdswf.netlify.app/
 
 ## Características:
 
-- Desarrollado en React.
+- Desarrollado con Vite y React.
 - Responsivo.
 - Resumen de skills técnicas y soft skills.
 - Resumen de experiencia laboral y estudio.
