@@ -7,7 +7,7 @@ import EducationCard from "./EducationCard";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio-container">
+    <div className="portfolio-container color-change-2x">
       <div className="portfolio-wrapper">
         <aside className="sidebar">
           <h3 className="profile-name">FERNANDO OSCAR CLEMENS</h3>
