@@ -145,7 +145,7 @@ export default function Portfolio() {
                 technologies="HTML, CSS, javascript"
                 repoLink="https://github.com/Ferclemens/color-scheme-generator"
                 demoLink="https://awesome-color-scheme-picker.netlify.app/"
-                img_src="https://portfolioclemensdswf.netlify.app/awesomecolorschemepicker.png"
+                img_src="/awesomecolorschemepicker.png"
               />
               <ProyectCard
                 title="Rememba App - Aplicación de recordatorios."
@@ -153,7 +153,7 @@ export default function Portfolio() {
                 technologies="HTML, CSS, javascript"
                 repoLink="https://github.com/Ferclemens/RemembaApp"
                 demoLink="https://rememba-app.netlify.app/"
-                img_src="https://portfolioclemensdswf.netlify.app/remembaapp.png"
+                img_src="/remembaapp.png"
               />
               <ProyectCard
                 title="Tables and Charts App - Aplicación de tablas y gráficos."
@@ -161,7 +161,7 @@ export default function Portfolio() {
                 technologies="React, React-Table, Chart.js, Chakra UI"
                 repoLink="https://github.com/Ferclemens/tables-and-charts"
                 demoLink="https://tables-and-charts-app.vercel.app/"
-                img_src="https://portfolioclemensdswf.netlify.app/tablesandcharts.png"
+                img_src="/tablesandcharts.png"
               />
             </section>
           </section>
