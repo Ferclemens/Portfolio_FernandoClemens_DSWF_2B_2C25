@@ -21,8 +21,8 @@ function ProyectCard({
         <a href={demoLink} target="_blank">
           {demoLink}
         </a>
+        <img className="project-img" src={img_src} alt="Proyecto imagen" />
       </div>
-      <img className="project-card" src={img_src} alt="Proyecto imagen" />
     </div>
   );
 }
